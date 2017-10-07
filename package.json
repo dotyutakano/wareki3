@@ -1,0 +1,270 @@
+{
+    "author": "ahirustudio.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "wareki",
+    "pebble": {
+        "displayName": "wareki (Japanese calendar)",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/pyear.png",
+                    "name": "IMAGE_YEAR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pwed.png",
+                    "name": "WED",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ptue.png",
+                    "name": "TUE",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pthu.png",
+                    "name": "THU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/psun.png",
+                    "name": "SUN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/psat.png",
+                    "name": "SAT",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pmon.png",
+                    "name": "MON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pmonth.png",
+                    "name": "IMAGE_MONTH",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pheisei.png",
+                    "name": "IMAGE_HEISEI",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pfri.png",
+                    "name": "FRI",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pflags.png",
+                    "name": "IMAGE_HOLIDAY",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pday.png",
+                    "name": "IMAGE_DAY",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pcolon.png",
+                    "name": "IMAGE_COLON",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p9.png",
+                    "name": "9",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p8.png",
+                    "name": "8",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p7.png",
+                    "name": "7",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p6.png",
+                    "name": "6",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p5.png",
+                    "name": "5",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p4.png",
+                    "name": "4",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p3.png",
+                    "name": "3",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p2.png",
+                    "name": "2",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p1.png",
+                    "name": "1",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p0.png",
+                    "name": "0",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/null.png",
+                    "name": "NULL",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/menu_icon_hs.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h17_yama.png",
+                    "name": "17YAMA",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h16_kokumin.png",
+                    "name": "16KOKUMIN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h15_tennou.png",
+                    "name": "15TENNOU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h14_kinrou.png",
+                    "name": "14KINROU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h13_bunka.png",
+                    "name": "13BUNKA",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h12_taiiku.png",
+                    "name": "12TAIIKU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h11_shubun.png",
+                    "name": "11SHUBUN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h10_keirou.png",
+                    "name": "10KEIROU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h09_umi.png",
+                    "name": "09UMI",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h08_kodomo.png",
+                    "name": "08KODOMO",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h07_midori.png",
+                    "name": "07MIDORI",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h06_kenpou.png",
+                    "name": "06KENPOU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h05_showa.png",
+                    "name": "05SHOWA",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h04_shunbun.png",
+                    "name": "04SHUNBUN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h03_kenkoku.png",
+                    "name": "03KENKOKU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h02_seijin.png",
+                    "name": "02SEIJIN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h01_ganjitsu.png",
+                    "name": "01GANJITSU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/h00_hurikae.png",
+                    "name": "00HURIKAE",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batterychg.png",
+                    "name": "IMAGE_BATTERY_CHARGING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery50.png",
+                    "name": "IMAGE_BATTERY_50",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery30.png",
+                    "name": "IMAGE_BATTERY_30",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "199c5559-d523-4b24-a0a1-870b32a6a2a4",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.3.0"
+}
